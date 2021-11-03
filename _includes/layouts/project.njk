@@ -1,0 +1,17 @@
+---
+layout: layouts/base.njk
+section: project
+---
+<div class="page-container">
+  <h1>
+    {% if emoji %}
+      <span class="project-card__emoji">{{ emoji }}</span>
+    {% endif %}
+    {{title}}</h1>
+  <hr>
+  <img src="/static/img/{{ image }}"/>
+  {{ layoutContent | safe }}
+  <nav>
+    <a href="{{ '/projects/' | url }}">← View All Projects</a>
+  </nav>
+</div>
