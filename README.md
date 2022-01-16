@@ -1,4 +1,4 @@
-# Creature Centric
+# CreatureCentric
 
 ## 💻 Development Scripts
 
