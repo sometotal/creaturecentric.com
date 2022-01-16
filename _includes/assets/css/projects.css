@@ -24,6 +24,11 @@
   color: var(--color-text);
 }
 
+.project-card__img:hover {
+  border: none;
+}
+
+  color: var(--color-text);
 .project-card__tag {
   background-color: var(--color-secondary);
   color: var(--color-text-alt);
