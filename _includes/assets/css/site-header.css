@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: space-between;
   padding: 15px;
-  border-top: 3px solid var(--color-secondary);
 }
 
 @media (min-width: 1024px) {
